@@ -1,0 +1,113 @@
+*{
+    margin: 0;
+    padding: 10px 10px;
+    box-sizing: border-box;
+}
+body{
+    background-color: black;
+    display: flex;
+    justify-content: space-between;
+}
+@media (max-width:1496px) and (min-width:1239px) {
+    div{
+        background-color: red;
+        width: 180px;
+        height: 200px;
+        color: white;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }   
+}
+@media (max-width:1238px) {
+    div{
+        background-color: blue;
+        width: 335px;
+        height: 200px;
+        color: white;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }  
+    body{
+        background-color: yellow;
+        display: flex;
+        flex-wrap:wrap ;
+        gap: 10px;
+        justify-content: space-between;    
+    } 
+}
+@media (max-width:1064px) {
+    div{
+        background-color: red;
+        width: 285px;
+        height: 200px;
+        color: white;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }  
+    body{
+        background-color: black;
+        display: flex;
+        flex-wrap: wrap;
+    } 
+}
+@media (max-width:920px) {
+    div{
+        background-color: blue;
+        width: 226px;
+        height: 200px;
+        color: white;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }  
+    body{
+        background-color: yellow;
+        display: flex;
+        flex-wrap:wrap ;
+        gap: 10px;
+        justify-content: space-between;    
+    } 
+}
+@media (max-width:760px) {
+    div{
+        background-color: orange;
+        width: 235px;
+        height: 200px;
+        color: white;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }  
+    body{
+        background-color: purple;
+        display: flex;
+        flex-wrap:wrap ;
+        padding: 0 80px;
+        justify-content: center;
+        gap: 5px;
+        justify-content: space-between;    
+    } 
+}
+@media (max-width:670px) {
+    div{
+        background-color: orange;
+        width: 280px;
+        height: 200px;
+        color: white;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }  
+    body{
+        background-color: purple;
+        display: flex;
+        flex-wrap:wrap;
+        justify-content: center;
+        padding: 0px 150px;
+        gap: 5px;
+        justify-content: space-between;    
+    } 
+}
